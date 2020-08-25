@@ -1,0 +1,39 @@
+									06-07-2020
+									===========
+***********************************DATABASE DETAILS******************************************
+						
+1- Go to SQL Command Line Create the Schema using follwing Command .
+
+				>connect as sysdba
+				username : > dba
+				password : > dba
+
+				//Create  User For Phoe Book ApplicationException
+				>create user PHNBK_LOCAL identified by swain123
+				username:PHNBK_LOCAL
+				Password :swain123
+
+				//Grant Permission to User
+				>grant connect, resource to PHNBK_LOCAL;
+				>commit;
+2- Open  SQL Developer tool
+		File->New->Connection->Database Connection->Give details(Connection Name,UN,PWD)->save->Test->Connect .
+
+3- Create Table For Application  :::
+
+							CREATE TABLE CONTACT_DTLS
+							(
+								CONTACT_ID NUMBER,
+								CONTACT_NAME VARCHAR2(50),
+								CONTACT_EMAIL VARCHAR2(50),
+								CONTACT_NUMBER NUMBER,
+								CREATED_DATE DATE,
+								UPDATED_DATE DATE,
+								PRIMARY KEY (CONTACT_ID)
+							);
+4- Create Sequence For Contac_Id :::
+
+					CREATE SEQUENCE CONTACT_ID_SEQ 
+						START WITH 1
+					INCREMENT  BY 1 ;
+5- commit;

@@ -1,0 +1,62 @@
+									05-07-2020
+									=================
+**************************************LAYER DETAILS*******************************************
+
+Persistence Layer
+==================
+					ContactEntity.java(C)
+					----------------------
+					Integer contactId;
+					String contactName;
+					String contactEmail;
+					Long contactNumber;
+					Date createdDate; //It will be created By DB Team for auditing purpose
+					Date updatedDate; //It will be created By DB Team for auditing purpose
+
+					ContactRepository.java(I)
+					-------------------------
+					We can use Predefined Methods provided by JpaRepository..
+
+Model Class ::
+===============
+					Contact.java
+					-------------
+					Integer contactId;
+					String contactName;
+					String contactEmail;
+					Long contactNumber;
+					Date createdDate; //It will be created By DB Team for auditing purpose
+					Date updatedDate; //It will be created By DB Team for auditing purpose
+
+Business Layer :
+=================
+					ContactService.java(C)
+					----------------------
+					boolean saveContact(ContactEntity  c);
+					List<Contact> getAllCpntacts();
+					Contact getContactById(Integer contactId);
+					boolean updateCotact(Contact c);
+					boolean deleteContactById(Integer contactId);
+
+					ContactServiceImpl.java(C)
+					--------------------------
+					We will implements all methods of  ContactService interface .
+
+Web/Controller Layer::
+======================
+					ContactInfoController.java(C) :
+					------------------------------
+					String loadForm(Model model)
+					String handleSubmitBtn(Contact c,Model model)
+					String handleViewContactLinks(Model model)
+					
+					ViewContactsController.java(C)
+					------------------------------
+					String editContact(Integer contactId)
+					String updateCotact(Contact c,Model model) 
+
+
+											07-07-2020
+										=================
+*****************************************Entity Class****************************************
+1- Create 
