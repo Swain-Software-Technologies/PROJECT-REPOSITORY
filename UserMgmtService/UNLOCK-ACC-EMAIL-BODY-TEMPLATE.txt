@@ -1,0 +1,14 @@
+Hi {FNAME}, {LNAME}
+<br/>
+Welcome to SSTechnology pvt. Ltd , Your registartion is almost completed. Please use below details to unlock your account .
+<br/>
+
+Temporary Password : {TEMP-PWD}<br/>
+<br/>
+
+<a href='http://localhost:9494/usermgmt/unlockAcc?userEmail={EMAIL}'>
+Click Here To Unlock Your Account</a><br/>
+
+Thanks & Regards,<br/>
+SSTechnology Pvt. Ltd.	
+
