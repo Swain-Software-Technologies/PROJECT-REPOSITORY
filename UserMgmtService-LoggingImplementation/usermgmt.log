@@ -1,0 +1,136 @@
+2020-09-03 08:11:17.590  INFO 11496 --- [restartedMain] com.sslab.UserMgmtServiceApplication     : Starting UserMgmtServiceApplication on DESKTOP-UASKMRV with PID 11496 (E:\MINI PROJECTS\UserMgmtService-LoggingImplementation\target\classes started by HACKER in E:\MINI PROJECTS\UserMgmtService-LoggingImplementation)
+2020-09-03 08:11:17.594  INFO 11496 --- [restartedMain] com.sslab.UserMgmtServiceApplication     : No active profile set, falling back to default profiles: default
+2020-09-03 08:11:17.666  INFO 11496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-03 08:11:17.667  INFO 11496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-03 08:11:18.837  INFO 11496 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-03 08:11:18.968  INFO 11496 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116ms. Found 4 JPA repository interfaces.
+2020-09-03 08:11:19.909  INFO 11496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9494 (http)
+2020-09-03 08:11:19.922  INFO 11496 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-03 08:11:19.923  INFO 11496 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-09-03 08:11:20.361  INFO 11496 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-03 08:11:20.368  INFO 11496 --- [restartedMain] o.a.c.c.C.[.[localhost].[/usermgmt]      : Initializing Spring embedded WebApplicationContext
+2020-09-03 08:11:20.369  INFO 11496 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2701 ms
+2020-09-03 08:11:20.689  INFO 11496 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-03 08:11:20.756  INFO 11496 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-03 08:11:20.873  INFO 11496 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-09-03 08:11:20.901  WARN 11496 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-03 08:11:21.336  INFO 11496 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-03 08:11:21.527  INFO 11496 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-03 08:11:21.530  WARN 11496 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2020-09-03 08:11:21.716  INFO 11496 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-03 08:11:21.836  INFO 11496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9494 (http) with context path '/usermgmt'
+2020-09-03 08:11:21.842  INFO 11496 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-03 08:11:22.437  INFO 11496 --- [task-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-09-03 08:11:22.443  INFO 11496 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-03 08:11:22.463  INFO 11496 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-09-03 08:11:23.633  INFO 11496 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-03 08:11:23.644  INFO 11496 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-03 08:11:24.258  INFO 11496 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-03 08:11:24.271  INFO 11496 --- [restartedMain] com.sslab.UserMgmtServiceApplication     : Started UserMgmtServiceApplication in 7.227 seconds (JVM running for 8.838)
+2020-09-03 08:14:12.453  INFO 11496 --- [http-nio-9494-exec-1] o.a.c.c.C.[.[localhost].[/usermgmt]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-03 08:14:12.454  INFO 11496 --- [http-nio-9494-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-03 08:14:12.472  INFO 11496 --- [http-nio-9494-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2020-09-03 08:14:12.679  INFO 11496 --- [http-nio-9494-exec-1] c.s.users.controller.UserMgmtController  : Registration Form Loaded Successfully
+2020-09-03 08:17:52.361  INFO 11496 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-09-03 08:17:52.716  INFO 11496 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-03 08:17:52.720  INFO 11496 --- [RMI TCP Connection(4)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-03 08:17:52.722  INFO 11496 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-09-03 08:17:52.742  INFO 11496 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-09-03 08:21:08.296  INFO 11416 --- [restartedMain] com.sslab.UserMgmtServiceApplication     : Starting UserMgmtServiceApplication on DESKTOP-UASKMRV with PID 11416 (E:\MINI PROJECTS\UserMgmtService-LoggingImplementation\target\classes started by HACKER in E:\MINI PROJECTS\UserMgmtService-LoggingImplementation)
+2020-09-03 08:21:08.301  INFO 11416 --- [restartedMain] com.sslab.UserMgmtServiceApplication     : No active profile set, falling back to default profiles: default
+2020-09-03 08:21:08.373  INFO 11416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-03 08:21:08.374  INFO 11416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-03 08:21:09.504  INFO 11416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-03 08:21:09.621  INFO 11416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104ms. Found 4 JPA repository interfaces.
+2020-09-03 08:21:10.522  INFO 11416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9494 (http)
+2020-09-03 08:21:10.536  INFO 11416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-03 08:21:10.537  INFO 11416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-09-03 08:21:10.992  INFO 11416 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-03 08:21:10.998  INFO 11416 --- [restartedMain] o.a.c.c.C.[.[localhost].[/usermgmt]      : Initializing Spring embedded WebApplicationContext
+2020-09-03 08:21:10.999  INFO 11416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2625 ms
+2020-09-03 08:21:11.310  INFO 11416 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-03 08:21:11.372  INFO 11416 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-03 08:21:11.473  INFO 11416 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-09-03 08:21:11.512  WARN 11416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-03 08:21:11.943  INFO 11416 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-03 08:21:12.143  INFO 11416 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-03 08:21:12.146  WARN 11416 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2020-09-03 08:21:12.382  INFO 11416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-03 08:21:12.534  INFO 11416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9494 (http) with context path '/usermgmt'
+2020-09-03 08:21:12.540  INFO 11416 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-03 08:21:13.263  INFO 11416 --- [task-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-09-03 08:21:13.268  INFO 11416 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-03 08:21:13.290  INFO 11416 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-09-03 08:21:14.816  INFO 11416 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-03 08:21:14.832  INFO 11416 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-03 08:21:15.690  INFO 11416 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-03 08:21:15.704  INFO 11416 --- [restartedMain] com.sslab.UserMgmtServiceApplication     : Started UserMgmtServiceApplication in 7.964 seconds (JVM running for 9.959)
+2020-09-03 08:21:23.451  INFO 11416 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-09-03 08:21:23.958  INFO 11416 --- [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-03 08:21:23.962  INFO 11416 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-03 08:21:23.965  INFO 11416 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-09-03 08:21:23.984  INFO 11416 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-09-03 08:21:38.861  INFO 888 --- [restartedMain] com.sslab.UserMgmtServiceApplication     : Starting UserMgmtServiceApplication on DESKTOP-UASKMRV with PID 888 (E:\MINI PROJECTS\UserMgmtService-LoggingImplementation\target\classes started by HACKER in E:\MINI PROJECTS\UserMgmtService-LoggingImplementation)
+2020-09-03 08:21:38.865  INFO 888 --- [restartedMain] com.sslab.UserMgmtServiceApplication     : No active profile set, falling back to default profiles: default
+2020-09-03 08:21:38.946  INFO 888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-03 08:21:38.946  INFO 888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-03 08:21:40.117  INFO 888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-03 08:21:40.249  INFO 888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118ms. Found 4 JPA repository interfaces.
+2020-09-03 08:21:41.166  INFO 888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9494 (http)
+2020-09-03 08:21:41.182  INFO 888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-03 08:21:41.183  INFO 888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-09-03 08:21:41.750  INFO 888 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-03 08:21:41.762  INFO 888 --- [restartedMain] o.a.c.c.C.[.[localhost].[/usermgmt]      : Initializing Spring embedded WebApplicationContext
+2020-09-03 08:21:41.763  INFO 888 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2816 ms
+2020-09-03 08:21:42.101  INFO 888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-03 08:21:42.165  INFO 888 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-03 08:21:42.269  INFO 888 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-09-03 08:21:42.308  WARN 888 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-03 08:21:42.734  INFO 888 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-03 08:21:42.938  INFO 888 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-03 08:21:42.941  WARN 888 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2020-09-03 08:21:43.173  INFO 888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-03 08:21:43.275  INFO 888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9494 (http) with context path '/usermgmt'
+2020-09-03 08:21:43.281  INFO 888 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-03 08:21:43.985  INFO 888 --- [task-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-09-03 08:21:43.993  INFO 888 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-03 08:21:44.020  INFO 888 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-09-03 08:21:45.551  INFO 888 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-03 08:21:45.567  INFO 888 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-03 08:21:46.316  INFO 888 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-03 08:21:46.329  INFO 888 --- [restartedMain] com.sslab.UserMgmtServiceApplication     : Started UserMgmtServiceApplication in 8.068 seconds (JVM running for 9.785)
+2020-09-03 08:49:34.564  INFO 888 --- [Thread-185] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-03 08:49:34.567  INFO 888 --- [Thread-185] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-03 08:49:34.570  INFO 888 --- [Thread-185] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-09-03 08:49:34.587  INFO 888 --- [Thread-185] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-09-03 08:49:34.965  INFO 888 --- [restartedMain] com.sslab.UserMgmtServiceApplication     : Starting UserMgmtServiceApplication on DESKTOP-UASKMRV with PID 888 (E:\MINI PROJECTS\UserMgmtService-LoggingImplementation\target\classes started by HACKER in E:\MINI PROJECTS\UserMgmtService-LoggingImplementation)
+2020-09-03 08:49:34.966  INFO 888 --- [restartedMain] com.sslab.UserMgmtServiceApplication     : No active profile set, falling back to default profiles: default
+2020-09-03 08:49:35.392  INFO 888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-03 08:49:35.422  INFO 888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29ms. Found 4 JPA repository interfaces.
+2020-09-03 08:49:35.702  INFO 888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9494 (http)
+2020-09-03 08:49:35.703  INFO 888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-03 08:49:35.704  INFO 888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-09-03 08:49:35.867  INFO 888 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-03 08:49:35.871  INFO 888 --- [restartedMain] o.a.c.c.C.[.[localhost].[/usermgmt]      : Initializing Spring embedded WebApplicationContext
+2020-09-03 08:49:35.872  INFO 888 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 902 ms
+2020-09-03 08:49:35.964  INFO 888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-03 08:49:35.976  INFO 888 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-03 08:49:35.990  INFO 888 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-09-03 08:49:35.991  WARN 888 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2020-09-03 08:49:36.031  INFO 888 --- [task-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-09-03 08:49:36.034  INFO 888 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-09-03 08:49:36.035  INFO 888 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-09-03 08:49:36.103  WARN 888 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-03 08:49:36.322  INFO 888 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-03 08:49:36.323  INFO 888 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-03 08:49:36.357  INFO 888 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-03 08:49:36.535  INFO 888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9494 (http) with context path '/usermgmt'
+2020-09-03 08:49:36.537  INFO 888 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-03 08:49:36.745  INFO 888 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-03 08:49:36.754  INFO 888 --- [restartedMain] com.sslab.UserMgmtServiceApplication     : Started UserMgmtServiceApplication in 1.855 seconds (JVM running for 1680.21)
+2020-09-03 08:49:36.757  INFO 888 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-09-03 08:49:37.656  INFO 888 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-09-03 08:49:38.019  INFO 888 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-03 08:49:38.020  INFO 888 --- [RMI TCP Connection(4)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-03 08:49:38.021  INFO 888 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-09-03 08:49:38.039  INFO 888 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
